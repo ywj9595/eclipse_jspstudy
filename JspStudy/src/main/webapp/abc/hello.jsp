@@ -19,6 +19,7 @@
 									   //자바스크립트에서는 document.write("str="+str+"<br>");
 	%>
 	<h1>왜그래</h1>
-	
+	<%=str %>
+	아아아
 </body>
 </html>
