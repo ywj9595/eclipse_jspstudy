@@ -10,7 +10,6 @@
 <title>Jsp 2번째 예제(표현식)</title>
 </head>
 <body>
-
 <%
   //int count=3;
   for(int i=0;i<count;i++){
@@ -18,12 +17,12 @@
   }
    out.println("count=>"+count);  
 %>
-출력할 변수명:<%=count %>
+	output 출력:<%=count %>
 <%!
     int count=3; //선언문->위치에 상관없이 선언된 변수를 불러다 사용(선언문)
 %>
 <hr>
-수직계산3:<%=(3*5) %>
-수삭계산4:<%=(6/2) %>
+수직계산2:<%=(3*5) %>
+수삭계산3:<%=(6/2) %>
 </body>
 </html>
