@@ -9,6 +9,7 @@
 <body>
 	<% 
 	String str="테스트";
+	System.out.println("str=>"+str);
 	System.out.println("<h1>"+str+"</h1>");
 	out.println("str="+str);//이게 jsp에서 웹으로 출력되는 방식(자바는 이클립스콘솔창(System)에서만 출력)
 									   //자바스크립트에서는 document.write("str="+str+"<br>");
